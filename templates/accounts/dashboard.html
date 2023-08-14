@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            {% include 'includes/side-nav.html' %}
+            <div class="col-md-8">
+                <div class="card shadow border-0">
+                    <header class="card-header">
+                        <strong class="d-inline-block mr-1">You Logged in as:</strong>
+                        <span>John Doe</span>
+                    </header>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card shadow border-0" style="text-align:center;">
+                                    <div class="card-body">
+                                        <img src="{% static 'img/instagram/ins-6.jpg' %}" alt="User Profile Picture" width="60" height="60" style="border-radius:50%;">
+                                        <p class="mb-2">username.gmail.com</p>
+                                        <p class="mb-0">+255 783 123 9821</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card shadow border-0" style="text-align:center;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Total Orders</h5>
+                                        <h4>50</h4>
+                                        <a href="#" class="mb-4">View Orders</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+{% endblock content %}
