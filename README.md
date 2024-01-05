@@ -63,26 +63,9 @@ Now you can run the project with this command
 ```
 python manage.py runserver
 ```
-
-
-## Author
-
-👤 **Ibrahim Ramadhan**
-
-* Website: ibby360.me
-* Github: [@ibby360](https://github.com/ibby360)
-
 ## Inspiration
 
 This project is based on the goal of improving my skills as a Self-taught enthusiast and the best way to improve is by building projects. I wanted to gain a deeper understanding of Django and Object-oriented programming in Python. I have learnt different technologies for the project and I keep on learning new skills as I add new features to the project.
 
-## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ibby360/edupty/issues). You can also take a look at the [contributing guide](https://github.com/ibby360/edupty/blob/master/CONTRIBUTING.md).
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
